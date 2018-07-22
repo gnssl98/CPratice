@@ -125,6 +125,7 @@ void Delete(AL*L, int value) {
 			}
 			boolist = 1;
 			L->curposition--;
+			break;
 		}
 	}
 	if (boolist == 0) {
